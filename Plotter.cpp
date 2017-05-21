@@ -149,7 +149,8 @@ libusb_device_handle *UsbOpen(struct cutter_id *id)
 		     desc.idProduct == PRODUCT_ID_SILHOUETTE_SD_1 ||
 		     desc.idProduct == PRODUCT_ID_SILHOUETTE_SD_2 ||
 		     desc.idProduct == PRODUCT_ID_SILHOUETTE_CAMEO ||
-		     desc.idProduct == PRODUCT_ID_SILHOUETTE_PORTRAIT
+		     desc.idProduct == PRODUCT_ID_SILHOUETTE_PORTRAIT ||
+		     desc.idProduct == PRODUCT_ID_SILHOUETTE_CAMEO_3
 		     )
 		    )
 		{
